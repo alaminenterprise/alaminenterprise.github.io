@@ -1,0 +1,297 @@
+/*
+Theme Name: freelancer
+Author: Aisyah Hanifiah
+Description: Bootstrap Blog template converted to WordPress
+Version: 4.5.3
+Tags: bootstrap
+*/
+
+
+.headerwiggly{
+  height: 32px;
+  width: 100%;
+  display: block;
+  background: url("../img/headerw2.png");
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+.navbar-custom {
+	padding-top: 0;
+	background-color: #fafafa;
+}
+
+.navbar-custom.affix {
+  padding-top: 0;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000;
+  margin-left: 0;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000;
+}
+
+.navbar-header {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-brand {float:none;}
+
+#introtext{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+#code {
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 30px;
+  background: #E7E6E7;
+  font-family: 'Courier New';
+  text-align: left;
+  font-size: 13px;
+  color: #fafafa;
+  margin-bottom: 100px;
+}
+
+.answer{
+  color: #ccc;
+
+}
+
+#console p{
+  display: inline;
+}
+
+#console {
+  margin-top: 15px;
+  padding: 40px;
+  margin: 0 auto;
+  background: #383737;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+#groupcircle{padding-left: 10px;}
+#red{background-color: #FF625A;}
+#yellow{background-color: #FFBE2F;}
+#green{background-color: #28CA40;}
+
+
+
+.portfolio-thumb {
+    /*width: 432.5px;*/
+    width: 45%;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    padding: 0;
+}
+
+.portfolio-big {
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    /* height: 680px; */
+}
+
+.portfolio-thumb p, .portfolio-big p {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  padding: 0px 25px 25px 25px;
+  margin-top: 14px;
+}
+
+@media screen and (max-width: 1000px){
+  .portfolio-thumb {
+    width: auto;
+  }
+}
+
+.help-block{
+  color: #cc0000;
+}
+
+.help-block ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.btn-primary {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #000;
+  background: none;
+  border-color: black;
+  outline:0;
+}
+.btn-primary:hover {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #000;
+  background: none;
+  border-color: black;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #000;
+  background: none;
+  border-color: black;
+  outline:0;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background: none;
+  border-color: black;
+  outline:0;
+}
+
+
+.btn-primary.raised {
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 5px 0 0 #000;
+  border-color: black;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.btn-primary.raised:active, .btn-primary.raised.active {
+  /*background: #33a6cc;*/
+  box-shadow: none;
+  margin-bottom: -4px;
+  margin-top: 4px;
+}
+
+#contactForm{
+  font-family: 'Karla', sans-serif;
+}
+
+footer .footer-below a{
+  text-decoration: none;
+  color: black;
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  font-size: 100px;
+  color: #18BC9C;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+.illustration img {
+  padding-top: 38px;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom{
+    padding-bottom: 35px;
+  }
+
+  .navbar-brand {
+     float: left; 
+}
+}
+
+@media (max-width: 1200px){
+  .cd-top {
+  
+  bottom: 5px;
+  right: 20px;
+  font-size: 70px;
+ 
+}
+}
+
+@media (min-width: 768px)
+.navbar-brand {
+    margin-left: 0;
+  }
+}
