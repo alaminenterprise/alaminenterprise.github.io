@@ -160,7 +160,9 @@ section h2 {
 section.illustration {
   /*padding-top: 200px;*/
   background: #e5e5db;
-  height: 668px; 
+  
+  padding-bottom: 0px!important;
+  /*height: 668px; */
 }
 section.success {
   background: #cbe6d3;
@@ -176,6 +178,10 @@ section.contact {
   section.first {
     padding-top: 75px;
   }
+
+  section.illustration {
+  padding-bottom: 0px!important;
+}
 }
 
 #portfolio{
