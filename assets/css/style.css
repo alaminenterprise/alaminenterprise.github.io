@@ -59,13 +59,19 @@ Tags: bootstrap
 
 #introtext{
 	font-family: 'Montserrat', sans-serif;
+  color: #000;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	font-size: 12px;
   text-decoration: none;
   font-weight: bold;
-  padding-bottom: 50px;
+  /*padding-bottom: 20px;*/
 }
+
+#aboutpic{
+  padding: 30px;
+}
+
 
 #code {
   border-radius: 5px;
@@ -295,3 +301,5 @@ footer .footer-below a{
     margin-left: 0;
   }
 }
+
+

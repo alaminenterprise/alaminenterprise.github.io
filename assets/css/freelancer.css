@@ -59,6 +59,7 @@ h6 {
   outline: none;
 }
 .navbar-custom .navbar-brand {
+      /*margin-left: 0px!important;*/
   color: black;
 }
 .navbar-custom .navbar-brand:hover,
@@ -117,7 +118,7 @@ h6 {
   }
 
   .navbar-brand {
-    margin-left: 0;
+    margin-left: 0px!important;
   }
 
   .navbar-nav {
@@ -162,7 +163,7 @@ section.illustration {
   height: 668px; 
 }
 section.success {
-  background: #00A3EB;
+  background: #cbe6d3;
   color: white;
 }
 section.contact {
